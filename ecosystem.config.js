@@ -19,7 +19,7 @@ module.exports = {
   
     deploy: {
       production: {
-        user: 'pi',
+        user: 'root',
         host: '192.168.1.116',
         ref: 'origin/master',
         repo: 'https://github.com/vladromila/smartlighting.git',
