@@ -1,6 +1,6 @@
 function onClick(path) {
     console.log("da");
-    fetch(`http://192.168.1.161:3000/${path}`, {
+    fetch(`http://192.168.1.116:3000/${path}`, {
         method: "GET",
         mode: "no-cors",
         headers: {
